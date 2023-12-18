@@ -1,0 +1,14 @@
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.AssemblyInfoInputs.cache
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.AssemblyInfo.cs
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.csproj.CoreCompileInputs.cache
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\bin\Debug\net8.0\ScreenSound_API.exe
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\bin\Debug\net8.0\ScreenSound_API.deps.json
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\bin\Debug\net8.0\ScreenSound_API.runtimeconfig.json
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\bin\Debug\net8.0\ScreenSound_API.dll
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\bin\Debug\net8.0\ScreenSound_API.pdb
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.dll
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\refint\ScreenSound_API.dll
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.pdb
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.genruntimeconfig.cache
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ref\ScreenSound_API.dll
