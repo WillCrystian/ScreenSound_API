@@ -13,17 +13,25 @@ internal class LinqFilter
             Console.WriteLine($"- {genre}");
         }            
     }
-
-    //filtrar artista por genero musical
     public static void FilterArtistByGenreMusic(List<Musica> musicas, string genre)
     {
         var artistByGenre = musicas.Where(m => m.Genero!.Contains(genre)).Select(m => m.Artista).Distinct().Order().ToList();
 
-        Console.WriteLine("Filter Arstist By Genre Music!");
+        Console.WriteLine("Arstist By Genre Music!");
         foreach (var artist in artistByGenre)
         {
             Console.WriteLine($" - {artist}");
         }
     }
-    //filtrar as músicas de um artista.
+
+    public static void FilterMusicByArtist(List<Musica> musicas, string artist)
+    {
+        var musicByArtist = musicas.Where(m => m.Artista!.Equals(artist)).ToList();
+
+        Console.WriteLine("Music By Artist!");
+        foreach (var music in musicByArtist)
+        {
+            Console.WriteLine($"- music: {music.Nome}/ {music.Artista}");
+        }
+    }
 }
