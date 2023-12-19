@@ -10,7 +10,7 @@ using (HttpClient client = new HttpClient())
 	{
         string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
-
+        musicas[109].DisplayMusicInformation();
         //LinqFilter.FilterMusicGenre(musicas);
         //LinqOrder.ViewListSortedArtists(musicas);
         //LinqFilter.FilterArtistByGenreMusic(musicas, "rock");
@@ -23,12 +23,11 @@ using (HttpClient client = new HttpClient())
         SongsWilliam.AddMusic(musicas[1458]);
         SongsWilliam.AddMusic(musicas[1842]);
         SongsWilliam.AddMusic(musicas[1422]);
-        SongsWilliam.AddMusic(musicas[1039]);
-        SongsWilliam.AddMusic(musicas[89]);
-        SongsWilliam.AddMusic(musicas[128]);
 
-        SongsWilliam.ViewSongs();
+        //SongsWilliam.ViewSongs();
 
+        SongsWilliam.GenerateJsonFile();
+        Console.ReadKey();
 
     }
 	catch (Exception ex)

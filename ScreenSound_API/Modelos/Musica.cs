@@ -12,6 +12,8 @@ internal class Musica
     public string? Genero { get; set; }
     [JsonPropertyName("duration_ms")]
     public int? Duracao { get; set; }
+    [JsonPropertyName("key")]
+    public string Key { get; set; }
 
 
     public void DisplayMusicInformation()
@@ -20,5 +22,8 @@ internal class Musica
         Console.WriteLine($"Música: {Nome}");
         Console.WriteLine($"Genero: {Genero}");
         Console.WriteLine($"Duração em segundos: {Duracao / 1000}");
+        Console.WriteLine($"Key: {Key}");
     }
+
+    
 }
