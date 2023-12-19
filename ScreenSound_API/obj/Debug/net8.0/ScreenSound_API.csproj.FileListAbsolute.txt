@@ -12,3 +12,4 @@ C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\
 C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.pdb
 C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.genruntimeconfig.cache
 C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ref\ScreenSound_API.dll
+C:\Users\william.aniceto\source\repos\ScreenSound_API\ScreenSound_API\obj\Debug\net8.0\ScreenSound_API.sourcelink.json
