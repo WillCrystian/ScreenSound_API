@@ -27,7 +27,6 @@ internal class LinqFilter
     public static void FilterMusicByArtist(List<Musica> musicas, string artist)
     {
         var musicByArtist = musicas.Where(m => m.Artista!.Equals(artist)).ToList();
-
         Console.WriteLine("Music By Artist!");
         foreach (var music in musicByArtist)
         {
