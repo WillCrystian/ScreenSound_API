@@ -1,4 +1,5 @@
 ﻿using ScreenSound_API.Modelos;
+using System.Xml.Serialization;
 
 namespace ScreenSound_API.LinqFilters;
 
@@ -31,6 +32,22 @@ internal class LinqFilter
         foreach (var music in musicByArtist)
         {
             Console.WriteLine($"- music: {music.Nome}/ {music.Artista}");
+        }
+    }
+
+    public static void FilterMusicByTonalidade(List<Musica> musicas, string tonalidade)
+    {
+        var musicByTonalidades = musicas.Where(m => m.Tonalidade.Equals(tonalidade)).OrderBy(m => m.Artista).ToList();
+
+        Console.WriteLine("Musics By Tonalidades");
+
+        foreach(var musics in musicByTonalidades)
+        {
+            Console.WriteLine($"Artista: {musics.Artista}");
+            Console.WriteLine($"Música: {musics.Nome}");
+            Console.WriteLine($"Genero: {musics.Genero}");
+            Console.WriteLine($"Key: {musics.Tonalidade}");
+            Console.WriteLine();
         }
     }
 }
